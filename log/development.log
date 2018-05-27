@@ -207,3 +207,10 @@ Processing by StudentsController#index as HTML
   [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
   Rendered students/index.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 284ms (Views: 276.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students" for 174.234.3.101 at 2018-05-27 16:54:25 +0000
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.2ms)
