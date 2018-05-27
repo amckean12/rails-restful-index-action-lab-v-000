@@ -7,6 +7,6 @@ class Student < ActiveRecord::Base
   end
 
   def name
-    @name = self.first_name
+    @name = self.to_s
   end
 end
